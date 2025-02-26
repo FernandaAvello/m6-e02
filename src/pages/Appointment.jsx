@@ -1,12 +1,21 @@
 import { Table } from 'antd';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import AppointmentForm from '../components/Appointment/AppointmentForm';
+import { addAppointmentToDB, getAppointmentsFromDB } from '../utils/indexedDB';
 
 const Appointment = () => {
   const [appointments, setAppointments] = useState([]);
 
+  useEffect(() => {
+    getAppointmentsFromDB().then((data) => {
+      setAppointments(data);
+    });
+  }, []);
+
   const addAppointment = (newAppointment) => {
-    setAppointments([...appointments, newAppointment]);
+    addAppointmentToDB(newAppointment).then(() => {
+      setAppointments((prevAppointments) => [...prevAppointments, newAppointment]);
+    });
   };
 
   const columns = [

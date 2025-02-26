@@ -17,6 +17,12 @@ const Login = () => {
     try {
       const success = await login(values.username, values.password, values.role);
       if (success) {
+        // Guardar datos del usuario en localStorage
+        localStorage.setItem('usuario', JSON.stringify({
+          username: values.username,
+          role: values.role
+        }));
+
         if (values.role === 'admin') {
           navigate('/patients');
         } else if (values.role === 'doctor') {

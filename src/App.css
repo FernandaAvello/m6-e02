@@ -32,6 +32,11 @@
   background-color: #972953 !important;
 }
 
+.welcomeMessage {
+  margin-left: auto;
+  font-weight: bold;
+}
+
 .section_frontImage {
   background-image: url(../public/assets/images/frontbackground.jpg);
   background-size: cover;
