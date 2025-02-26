@@ -3,17 +3,25 @@ En el Header se implementó un botón que redirige al Login en caso de que no ha
 
 ## Implementación de IndexedDB
 1.- Se creó un archivo indexedDB.js en la carpeta utils para manejar la configuración de IndexedDB.
+
 2.- Se definió una base de datos llamada AppointmentsDB con una tabla appointments para almacenar las citas.
+
 3.- Se implementaron funciones para abrir la base de datos (openDB), agregar citas (addAppointmentToDB) y obtener citas (getAppointmentsFromDB).
+
 4.- En el componente Appointment, se modificó la función addAppointment para guardar las citas en IndexedDB utilizando la función addAppointmentToDB.
+
 5.- En el componente Appointment, se utilizó la función getAppointmentsFromDB en el useEffect para cargar las citas desde IndexedDB al iniciar la aplicación.
 
 Para comprobar su correcto funcionamiento:
 
 1.- En Google Chrome, presiona Ctrl+Shift+I (o Cmd+Option+I en macOS) o haz clic derecho en la página y selecciona "Inspeccionar".
+
 2.- En las herramientas de desarrollo, selecciona la pestaña "Application" (Aplicación).
+
 3.  El panel izquierdo, busca la sección "Base de datos indexada". Haz clic en ella para expandirla.
+
 4.- Busca la base de datos AppointmentsDB y selecciónala.
+
 5.- Dentro de AppointmentsDB, selecciona la tabla appointments. Aquí podrás ver todas las entradas almacenadas en IndexedDB.
 
 ## Credenciales de Acceso Login
