@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "username": "admin",
+      "password": "asd123123",
+      "role": "admin"
+    },
+    {
+      "id": 18,
+      "name": "juan",
+      "username": "juan",
+      "password": "54321",
+      "role": "doctor"
+    }
+  ],
+  "patients": [
+  {
+    "id": 1,
+    "name": "Juan Pérez",
+    "age": 45,
+    "birthdate": "1978-05-12",
+    "phone": "555-1234",
+    "appointments": [
+      {
+        "date": "2023-10-01",
+        "doctor": "Dr. Smith"
+      },
+      {
+        "date": "2023-10-15",
+        "doctor": "Dr. Johnson"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "María García",
+    "age": 30,
+    "birthdate": "1993-08-22",
+    "phone": "555-5678",
+    "appointments": [
+      {
+        "date": "2023-10-05",
+        "doctor": "Dr. Brown"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Carlos López",
+    "age": 50,
+    "birthdate": "1973-02-18",
+    "phone": "555-8765",
+    "appointments": [
+      {
+        "date": "2023-10-10",
+        "doctor": "Dr. White"
+      },
+      {
+        "date": "2023-10-20",
+        "doctor": "Dr. Green"
+      }
+    ]
+  }
+]
+}

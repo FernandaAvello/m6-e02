@@ -1,0 +1,23 @@
+{
+  "name": "KS Medical Clinic",
+  "short_name": "KS Medical",
+  "description": "Una aplicación web progresiva para una Clínica de la Mujer",
+  "start_url": "/",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "../icons/icon512_rounded.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "../icons/icon512_rounded.png",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "display": "standalone"
+}

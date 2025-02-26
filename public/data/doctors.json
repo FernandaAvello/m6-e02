@@ -1,0 +1,110 @@
+[
+{
+  "id": 1,
+  "name": "Dra. Ana Martínez",
+  "specialty": "Ginecología y Obstetricia",
+  "description": "Especialista en salud femenina, la Dra. Martínez ofrece atención integral en control prenatal, salud reproductiva y menopausia.",
+  "image": "assets/images/dr2.png",
+  "years_of_experience": 15,
+  "disponibility": {
+    "days": ["Lunes", "Miércoles", "Viernes"],
+    "hours": ["9:00", "11:00", "14:00"]
+  }
+},
+{
+  "id": 2,
+  "name": "Dr. Carlos Gómez",
+  "specialty": "Endocrinología Reproductiva",
+  "description": "El Dr. Gómez se especializa en el tratamiento de trastornos hormonales que afectan la fertilidad, ofreciendo soluciones personalizadas para cada paciente.",
+  "image": "assets/images/dr1.png",
+  "years_of_experience": 12,
+  "disponibility": {
+    "days": ["Martes", "Jueves"],
+    "hours": ["10:00", "12:00", "16:00"]
+  }
+},
+{
+  "id": 3,
+  "name": "Dra. Laura Pérez",
+  "specialty": "Medicina Materno-Fetal",
+  "description": "La Dra. Pérez se dedica al cuidado de embarazos de alto riesgo, brindando atención especializada para garantizar la salud de la madre y el bebé.",
+  "image": "assets/images/dr8.png",
+  "years_of_experience": 10,
+  "disponibility": {
+    "days": ["Lunes", "Miércoles", "Viernes"],
+    "hours": ["8:00", "10:00", "13:00"]
+  }
+},
+{
+  "id": 4,
+  "name": "Dra. Isabel Rodríguez",
+  "specialty": "Ginecología Oncológica",
+  "description": "Con un enfoque en la detección y tratamiento de cánceres ginecológicos, la Dra. Rodríguez acompaña a sus pacientes en cada etapa del tratamiento.",
+  "image": "assets/images/dr4.png",
+  "years_of_experience": 8,
+  "disponibility": {
+    "days": ["Martes", "Jueves"],
+    "hours": ["9:00", "11:00", "15:00"]
+  }
+},
+{
+  "id": 5,
+  "name": "Dr. Javier Sánchez",
+  "specialty": "Uroginecología",
+  "description": "El Dr. Sánchez se especializa en el tratamiento de trastornos del suelo pélvico y problemas urinarios en mujeres, ofreciendo soluciones quirúrgicas y no quirúrgicas.",
+  "image": "assets/images/dr5.png",
+  "years_of_experience": 20,
+  "disponibility": {
+    "days": ["Lunes", "Miércoles", "Viernes"],
+    "hours": ["8:00", "10:00", "14:00"]
+  }
+},
+{
+  "id": 6,
+  "name": "Dra. Marta Fernández",
+  "specialty": "Ginecología Pediátrica y Adolescente",
+  "description": "La Dra. Fernández ofrece atención ginecológica especializada para niñas y adolescentes, enfocándose en el desarrollo saludable y la educación sexual.",
+  "image": "assets/images/dr6.png",
+  "years_of_experience": 7,
+  "disponibility": {
+    "days": ["Martes", "Jueves"],
+    "hours": ["10:00", "12:00", "14:00"]
+  }
+},
+{
+  "id": 7,
+  "name": "Dra. Patricia López",
+  "specialty": "Medicina Reproductiva",
+  "description": "Especialista en tratamientos de fertilidad, la Dra. López acompaña a sus pacientes en el camino hacia la concepción, ofreciendo técnicas avanzadas de reproducción asistida.",
+  "image": "assets/images/dr10.jpg",
+  "years_of_experience": 14,
+  "disponibility": {
+    "days": ["Lunes", "Miércoles", "Viernes"],
+    "hours": ["9:00", "11:00", "13:00"]
+  }
+},
+{
+  "id": 8,
+  "name": "Dr. Fernando Ruiz",
+  "specialty": "Ginecología Estética",
+  "description": "El Dr. Ruiz se especializa en procedimientos estéticos ginecológicos, ayudando a sus pacientes a mejorar su bienestar y confianza.",
+  "image": "assets/images/dr3.png",
+  "years_of_experience": 10,
+  "disponibility": {
+    "days": ["Martes", "Jueves"],
+    "hours": ["10:00", "12:00", "15:00"]
+  }
+},
+{
+  "id": 9,
+  "name": "Dra. Silvia Torres",
+  "specialty": "Psicología Reproductiva",
+  "description": "La Dra. Torres ofrece apoyo psicológico a mujeres y parejas que enfrentan desafíos reproductivos, ayudándoles a manejar el estrés y las emociones durante el tratamiento de fertilidad.",
+  "image": "assets/images/dr12.jpg",
+  "years_of_experience": 9,
+  "disponibility": {
+    "days": ["Lunes", "Miércoles", "Viernes"],
+    "hours": ["9:00", "11:00", "14:00"]
+  }
+}
+]

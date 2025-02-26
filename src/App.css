@@ -1,0 +1,88 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent !important;
+  padding: 10px;
+  position: relative;
+}
+
+.header .ant-menu {
+  background-color: transparent !important;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  line-height: 64px;
+  position: relative;
+}
+
+.whatsappButton {
+  background-color: #EA4C89;
+  border-radius: 10px !important;
+  color: #fff !important;
+}
+
+.whatsappButton:hover {
+  background-color: #972953 !important;
+}
+
+.section_frontImage {
+  background-image: url(../public/assets/images/frontbackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.section_frontMessage {
+  width: 80%;
+  margin: 0 auto;
+}
+.section_homeServices {
+  background-color: #EA4C89;
+  margin-top: 30px;
+  padding: 0 7%;
+}
+.custom-shape-divider-bottom {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 173px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+  fill: #EA4C89;
+}
+.section_team, .section_services {
+  margin: 0 auto;
+  width: 70%;
+}
+.section_list_doctors {
+margin-top: 30px;
+}
+.section_homeServices {
+  margin-top: -52px;
+}
+.section_appointment {
+  padding: 0 25% 4% 25%;
+}
+.footer {
+  background-color: #EA4C89;
+  color: #fff;
+  padding: 20px 0;
+}

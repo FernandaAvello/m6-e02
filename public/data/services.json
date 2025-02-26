@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "icon": "pregnant_woman",
+    "title": "Control Prenatal",
+    "description": "Seguimiento y cuidado integral durante el embarazo para asegurar la salud de la madre y el bebé."
+  },
+  {
+    "id": 2,
+    "icon": "local_hospital",
+    "title": "Parto y Nacimiento",
+    "description": "Atención especializada durante el parto, asegurando un proceso seguro y cómodo para la madre y el recién nacido."
+  },
+  {
+    "id": 3,
+    "icon": "healing",
+    "title": "Fertilidad y Reproducción Asistida",
+    "description": "Tratamientos avanzados de fertilidad para ayudar a las parejas a concebir, incluyendo inseminación artificial y fertilización in vitro."
+  },
+  {
+    "id": 4,
+    "icon": "favorite",
+    "title": "Salud Reproductiva",
+    "description": "Servicios de salud reproductiva para mujeres de todas las edades, incluyendo planificación familiar y manejo de la menopausia."
+  },
+  {
+    "id": 5,
+    "icon": "child_care",
+    "title": "Ginecología Pediátrica",
+    "description": "Atención ginecológica especializada para niñas y adolescentes, enfocándose en el desarrollo saludable y la educación sexual."
+  },
+  {
+    "id": 6,
+    "icon": "local_pharmacy",
+    "title": "Endocrinología Reproductiva",
+    "description": "Diagnóstico y tratamiento de trastornos hormonales que afectan la fertilidad y la salud reproductiva."
+  },
+  {
+    "id": 7,
+    "icon": "spa",
+    "title": "Ginecología Estética",
+    "description": "Procedimientos estéticos ginecológicos para mejorar el bienestar y la confianza de las pacientes."
+  },
+  {
+    "id": 8,
+    "icon": "psychology",
+    "title": "Psicología Reproductiva",
+    "description": "Apoyo psicológico para mujeres y parejas que enfrentan desafíos reproductivos, ayudándoles a manejar el estrés y las emociones."
+  },
+  {
+    "id": 9,
+    "icon": "medical_services",
+    "title": "Medicina Materno-Fetal",
+    "description": "Cuidado especializado para embarazos de alto riesgo, asegurando la salud de la madre y el bebé."
+  },
+  {
+    "id": 10,
+    "icon": "local_hospital",
+    "title": "Ginecología Oncológica",
+    "description": "Detección y tratamiento de cánceres ginecológicos, acompañando a las pacientes en cada etapa del tratamiento."
+  }
+]
