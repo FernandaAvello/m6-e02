@@ -1,5 +1,6 @@
 import { Table } from 'antd';
 import React, { useState, useEffect } from 'react';
+import dayjs from 'dayjs';
 import AppointmentForm from '../components/Appointment/AppointmentForm';
 import { addAppointmentToDB, getAppointmentsFromDB } from '../utils/indexedDB';
 
@@ -8,6 +9,7 @@ const Appointment = () => {
 
   useEffect(() => {
     getAppointmentsFromDB().then((data) => {
+      console.log(data)
       setAppointments(data);
     });
   }, []);
@@ -22,38 +24,40 @@ const Appointment = () => {
     {
       title: 'Nombre',
       dataIndex: 'patientFirstName',
-      key: 'patientFirstName',
+      key: 'patientfirstname',
     },
     {
       title: 'Apellido',
       dataIndex: 'patientLastName',
-      key: 'patientLastName',
+      key: 'patientlastname',
     },
     {
       title: 'Correo',
       dataIndex: 'patientEmail',
-      key: 'patientEmail',
+      key: 'patientemail',
     },
     {
       title: 'Teléfono',
       dataIndex: 'patientPhone',
-      key: 'patientPhone',
+      key: 'patientphone',
     },
     {
       title: 'Fecha de Cita',
       dataIndex: 'appointmentDate',
-      key: 'appointmentDate',
-      render: (date) => date?.format('DD-MM-YYYY'),
+      key: 'appointmentdate',
+      render: (date) => {
+        return `${dayjs(date).format('DD/MM/YYYY')}`;
+      },
     },
     {
       title: 'Especialidad del Doctor',
       dataIndex: 'doctorSpecialty',
-      key: 'doctorSpecialty',
+      key: 'doctorspecialty',
     },
     {
       title: 'Nombre del Doctor',
       dataIndex: 'doctorName',
-      key: 'doctorName',
+      key: 'doctorname',
     },
   ];
 

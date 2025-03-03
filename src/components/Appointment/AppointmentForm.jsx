@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import moment from 'moment';
 import { Form, Input, Select, DatePicker, Button } from 'antd';
 import doctorsData from '../../../public/data/doctors.json';
 
@@ -42,6 +43,7 @@ const AppointmentForm = ({ addAppointment }) => {
     form.resetFields();
   };
 
+  const dateFormat = 'DD/MM/YYYY';
   return (
     <div>
       <Form form={form} className="section_appointment" onFinish={handleSubmit}>
@@ -113,7 +115,9 @@ const AppointmentForm = ({ addAppointment }) => {
             label="Fecha de la cita"
             rules={[{ required: true, message: 'Por favor seleccione la fecha de la cita' }]}
           >
-            <DatePicker value={appointmentDate} onChange={(date) => setAppointmentDate(date)} />
+             <DatePicker value={appointmentDate ? moment(appointmentDate, dateFormat) : null} format={dateFormat} onChange={(date) => {
+              setAppointmentDate(date ? date.toISOString() : null);
+            }} />
           </Form.Item>
           <Form.Item>
             <Button type="primary" htmlType="submit">

@@ -29,7 +29,7 @@ export const addAppointmentToDB = (appointment) => {
       const transaction = db.transaction([STORE_NAME], 'readwrite');
       const store = transaction.objectStore(STORE_NAME);
       const request = store.add(appointment);
-
+      console.log(appointment)
       request.onsuccess = () => {
         resolve();
       };
@@ -47,6 +47,7 @@ export const getAppointmentsFromDB = () => {
       const transaction = db.transaction([STORE_NAME], 'readonly');
       const store = transaction.objectStore(STORE_NAME);
       const request = store.getAll();
+      console.log(request)
 
       request.onsuccess = (event) => {
         resolve(event.target.result);
